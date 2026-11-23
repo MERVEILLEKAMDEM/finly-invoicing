@@ -6,7 +6,7 @@ Application web pour **gérer ses clients et ses factures** et suivre son activi
 
 - Inscription et connexion (mots de passe hachés avec bcrypt, sessions Express, messages flash)
 - Gestion des **clients** : création, modification, suppression
-- Gestion des **factures** : création, statut, montants, dates d'échéance
+- Gestion des **factures** liées à un client : création, modification, suppression, montant, date et statut
 - **Tableau de bord** de suivi de l'activité
 - Validation des formulaires côté serveur (express-validator)
 
